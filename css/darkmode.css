@@ -1,40 +1,44 @@
 body{
-    background-color: rgb(65, 90, 0);
+  background-color: rgb(67, 94, 0);
 
 }
 
 h1{
-    color: rgb(231, 241, 171);
-    font-size: 100px;
+  color: rgb(199, 209, 142);
+  font-size: 100px;
 }
 
 .center-me{
-    position: absolute;
-      top: 50%;
-      left: 50%;
-      margin-right: -50%;
-      transform: translate(-50%, -50%);
+  position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
 }
 
 button{
-    font-size: 20px;
-    font-weight: 200;
-    letter-spacing: 1px;
-    padding: 13px 50px 13px;
-    outline: 0;
-    border: 1px solid rgb(202, 161, 46);
-    cursor: pointer;
-    position: relative;
-    background-color: rgba(0, 0, 0, 0);
-  }
+  font-size: 20px;
+  font-weight: 200;
+  letter-spacing: 1px;
+  padding: 13px 50px 13px;
+  outline: 0;
+  border: 1px solid black;
+  cursor: pointer;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0);
+}
 
-  button::after{
-    content: "";
-  background-color: #8a118a;
-  width: 100%;
-  z-index: -1;
-  position: absolute;
-  height: 100%;
-  top: 7px;
-  left: 7px;
-  }
+button::after{
+  content: "";
+background-color: #430086;
+width: 100%;
+z-index: -1;
+position: absolute;
+height: 100%;
+top: 7px;
+left: 7px;
+}
+
+#dmbutton{
+  margin-left: 21rem;
+}
