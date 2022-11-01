@@ -8,6 +8,11 @@ h1{
     font-size: 100px;
 }
 
+.heading{
+  transform: rotate(-13deg);
+  
+}
+
 .center-me{
     position: absolute;
       top: 50%;
