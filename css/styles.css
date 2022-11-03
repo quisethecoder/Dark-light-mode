@@ -9,7 +9,9 @@ h1{
 }
 
 .heading{
-  transform: rotate(-13deg);
+  transform: rotate(-14deg);
+  color: rgb(178, 206, 19);
+  font-size: 55px;
   
 }
 

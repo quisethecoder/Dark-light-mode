@@ -7,7 +7,15 @@ document.getElementById('dmbutton').addEventListener('click', function() {
         dmb.innerHTML = 'Light Mode'
     }else{ css.setAttribute('href', './css/styles.css');
     dmb.innerHTML = 'Dark Mode'
+    }
 
+    if (dmb.innerHTML === "Light Mode"){
+        document.getElementById("js").innerHTML = "Bring Back The Lights";
+    }else{
+        document.getElementById("js").innerHTML = "This is a test";
     }
 
 });
+
+
+// Fix how to keep css the same when changing text with javascript
