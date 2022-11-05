@@ -4,17 +4,14 @@ document.getElementById('dmbutton').addEventListener('click', function() {
 
     if (dmb.innerHTML == 'Dark Mode') {
         css.setAttribute('href', './css/darkmode.css');
+        document.getElementsByClassName("heading").innerHTML = "Bring Back The Lights";
         dmb.innerHTML = 'Light Mode'
     }else{ css.setAttribute('href', './css/styles.css');
+    document.getElementsByClassName("heading").innerHTML = "This is a test";
     dmb.innerHTML = 'Dark Mode'
     }
 
-    if (dmb.innerHTML === "Light Mode"){
-        document.getElementById("js").innerHTML = "Bring Back The Lights";
-    }else{
-        document.getElementById("js").innerHTML = "This is a test";
-    }
-
+    
 });
 
 
